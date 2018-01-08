@@ -50,4 +50,4 @@ AnythingAnythingAnything
 
 ## License
 
-[MIT](gst_itunes/LICENSE)
+[MIT](https://github.com/yamachaaan/gst_itunes/blob/master/LICENSE)

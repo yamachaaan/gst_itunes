@@ -1,48 +1,38 @@
 # Awesome-name
 
-![Badge Status](https://ci-as-a-service)
-
-OverviewOverviewOverview
+get song title for ituens  
 
 ## Description
 
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-
-***DEMO:***
-
-![Demo](https://image-url.gif)
+Get song information being played on iTunes and display it on tmux menu bar.  
+Since using AppleScript macOS only  
 
 ## Features
 
-- Awesome function
-- Awesome UI
-- ...
-
-For more information, see `awesome-tool --help`.
+- Show song information
+- tmux menubar
 
 ## Requirement
 
-- Requirement
-- Requirement
-- Requirement
+- itunes
+- macOS
+- tmux
 
 ## Usage
 
-1. Usage
-2. Usage
-3. Usage
+1. clone .scpt file
+2. Save to any location
+3. add parmission
+4. Run ituens
+5. play Music
 
 ## Installation
 
-    $ git clone https://github.com/b4b4r07/awesome-tool
+.tmux.conf
 
-## Anything Else
-
-AnythingAnythingAnything
-AnythingAnythingAnything
-AnythingAnythingAnything
+```
+set-option  -g status-right '#(~/dev/getTrack.scpt)'
+```
 
 ## Author
 

@@ -1,4 +1,4 @@
-# Awesome-name
+# gst_itunes
 
 get song title for ituens  
 
